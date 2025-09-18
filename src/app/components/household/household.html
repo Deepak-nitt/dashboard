@@ -1,0 +1,22 @@
+<div class="bg-slate-600 px-3 py-3 mt-8 mx-10git rounded-lg" *ngFor="let house of household">
+   <div class=" text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 ">
+    <div class="flex">
+        <p>Title: </p>
+        <p>{{house.title}}</p>
+    </div>
+
+    <div class="flex">
+        <p>Location: </p>
+        <p>{{house.location}}</p>
+    </div>
+    <div class="flex">
+        <p>HouseHolds: </p>
+        <p>{{house.households}}</p>
+    </div>
+    <div class="flex">
+        <p>Status: </p>
+        <p>{{house.status}}</p>
+    </div>
+   </div>
+
+</div>
